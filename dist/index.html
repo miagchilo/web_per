@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Villa Agency - Real Estate HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 591 villa agency
+
+https://templatemo.com/tm-591-villa-agency
+
+-->
+    <link rel="stylesheet" crossorigin href="./assets/index-BiJNnJm8.css">
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <ul class="info">
+            <li><i class="fa fa-envelope"></i> info@company.com</li>
+            <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <ul class="social-links">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>Villa</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Home</a></li>
+                      <li><a href="properties.html">Properties</a></li>
+                      <li><a href="property-details.html">Property Details</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="owl-carousel owl-banner">
+      <div class="item item-1">
+        <div class="header-text">
+          <span class="category">Toronto, <em>Canada</em></span>
+          <h2>Hurry!<br>Get the Best Villa for you</h2>
+        </div>
+      </div>
+      <div class="item item-2">
+        <div class="header-text">
+          <span class="category">Melbourne, <em>Australia</em></span>
+          <h2>Be Quick!<br>Get the best villa in town</h2>
+        </div>
+      </div>
+      <div class="item item-3">
+        <div class="header-text">
+          <span class="category">Miami, <em>South Florida</em></span>
+          <h2>Act Now!<br>Get the highest level penthouse</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="featured section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-image">
+            <img src="./assets/featured-BrpstEN7.jpg" alt="">
+            <a href="property-details.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA8CAYAAAAzF3kIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjU1QUMxRTFDQTYzODExRUQ4NEQ0RDg4MkFGRjU0RUZBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjU1QUMxRTFEQTYzODExRUQ4NEQ0RDg4MkFGRjU0RUZBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTVBQzFFMUFBNjM4MTFFRDg0RDREODgyQUZGNTRFRkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTVBQzFFMUJBNjM4MTFFRDg0RDREODgyQUZGNTRFRkEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5z7vhiAAAF0UlEQVR42tRbXWxU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" loading="lazy" alt="" style="max-width: 60px; padding: 0px;"></a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="section-heading">
+            <h6>| Featured</h6>
+            <h2>Best Appartment &amp; Sea view</h2>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Best useful links ?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <a href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best free CSS templates</a> in the world. Please tell your friends about it.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How does this work ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Why is Villa Agency the best ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="info-table">
+            <ul>
+              <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjgxRTMzNzFFQTZEMDExRURCNUM5RUQ0M0M5ODAzMjI1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjgxRTMzNzFGQTZEMDExRURCNUM5RUQ0M0M5ODAzMjI1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ODFFMzM3MUNBNkQwMTFFREI1QzlFRDQzQzk4MDMyMjUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODFFMzM3MURBNkQwMTFFREI1QzlFRDQzQzk4MDMyMjUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4NEQWxAAAEsklEQVR42txaCYhNURg+770Zg7HFMFGWhGYsZYlIY0m2CMXD2Eq2REKoCUVECkkiS7YYy1ijCUnGviXrZCnLyE7GDMZY3vj/ed/ldLvv3nfuW9w7f32dd+859577vXP+9V5PwN9cQEYQVhLmE3aKf9KGcILQQNiT34RvhOoW44rDGGM1z6UEHAwm7MXvHYQSQg6O24PMZ8JTgldhkgChLR40n/DD4HoeU4PQFP35inPI82QwoaGEA1IH32w/YRRhD6EQfVmEDTb+uVxCf0IrkzGphDeEjYQZNleofB4vyDCRVYQywmqsUDYGFqFNtjlRJbSVTcbUDmNMWPMwoeEEVqTDBB/hGCENOiWkfe2zOZEHbaLJGG3reyMg5NFupOlKb7StCWcJBbrJ7MpPSeljLl6DiX/qxpRFcP9EaRvVizehaMtYWK3uOH5LOBprQgkxvDdv2XOELyCWQrimcH1brO4Vg76O8Ds340koT1qdcOWT9PsktqkPVliWa7DEVaVzX2NNSEWS0A7BqrDFqgN9NiL0DWTWSec4ACh1CqF3MD7NCNOl8y9CGKUCuJZpuvOFTiFUgNAnFavBJK4TmoQYnybpkmaJOcpoF2tCKdhCZcBrEzfwDNDkIAj9Mhh7lfCRcEM6x6GTN5aExhO2SpEw68JpyYFbyTCTvs4G56rE2g/lI04sBZlct/sh3hZ+wnHCAMDVkYLQRdDJFYWQJ45zKU3yyeYc3+Np/1V0KB1QuSYA0y2vlGMIzQTsSsBphNhz37GhP2y27yPqdhQhLpBsEw4XFaNQN07P1JOwWRjX6DIRs4VM9b2K2yeaUhUPrQeXsSYK47LXVMJkESx+6q8rjxlVttz7KJIZKIIFzdomY4yC2AeEDBNdLlIhxAHhU4uV8sAAvLG4Vy+QeYk/yitZQo6wa4XYPVqN7zEyVPk6zqV8KoQmAeHEcJ0txhRJGeoNXd9GbKtSg+sao22NOoUs5ZVTFUJcI7gYwjJqSRmXixuGcS9tO9U06FuPSN1oWy3kJM6AzN/VUyHEuc1OizFZSJsjcRu3ASO5AIQ0WipWrr5Ff3+0Z9zih6xkLtrdFYFQOhziXVg51xPKRet3U+gTShHz4DsWEx66iZC+nNQOBLqJ4Ju+RW4LTn8gXupD2CeChXJ+UbZCBF9fOkJU/NBywlrpmAvmcwjnnZQ+qBBKgsNjneE35pedmA/JhBJ1rT5t4ErorijN+w7t8yhy+fs6ZRDhFuEeOtiP8HcJXAjnSqdPigQCiJkisY5cFu6H35MRs0Vqbfm5WmiEjiKyXYPJ+hKOiODHELw6r3DRqBgo/6xobzlPwN+c09psialX2mLbsUL8pUlKFLNW7W2EJwr3LIF+83M/SYAPYR+zXyIzRorJeNUOCZeIRoC/VRiH7HGSLsDsAr0a68Dn70R4RJggbzl5ADtOuXTLb6KvQ9fSkdM7SXirfSBUE8EvYnL0fkgm04NwCmS2IB9q6TBCxTBmC6Ayo/UrpDeFHpeojmZgTCOFKYRNUvp9xaLs9D+Ey8uNCPNwvMSMEFcvC7GUnLzNFsGPAJ0mV9Hyl5jLrDw0W79M6M9IB5LpSuhAWMpk+MQfAQYAkGv4sl5rjigAAAAASUVORK5CYII=" loading="lazy" alt="" style="max-width: 52px;">
+                <h4>250 m2<br><span>Total Flat Space</span></h4>
+              </li>
+              <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkyNDE4MDQ1QTZEMDExRUQ5MjVCQjk2QTM4MjNERDRCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjkyNDE4MDQ2QTZEMDExRUQ5MjVCQjk2QTM4MjNERDRCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTI0MTgwNDNBNkQwMTFFRDkyNUJCOTZBMzgyM0RENEIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTI0MTgwNDRBNkQwMTFFRDkyNUJCOTZBMzgyM0RENEIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5DJUgJAAAGzklEQVR42tRaC2wU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" loading="lazy" alt="" style="max-width: 52px;">
+                <h4>Contract<br><span>Contract Ready</span></h4>
+              </li>
+              <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk5MkEzMDVGQTZEMDExRUQ5NzRFQjQwNDczMjY3NkMxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk5MkEzMDYwQTZEMDExRUQ5NzRFQjQwNDczMjY3NkMxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTkyQTMwNURBNkQwMTFFRDk3NEVCNDA0NzMyNjc2QzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTkyQTMwNUVBNkQwMTFFRDk3NEVCNDA0NzMyNjc2QzEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6ZGPb2AAAFIklEQVR42syae4gVVRzHz+y97uqaD1BIF6GsfGwmmoivsrAyMJFNxNfN8IFYYWVpaZFZEfZakizC/CNUNBG08ImhRvnYFQWJxFB7oJn5wMdqpqvW3tv3x/0e9jTN3Du798yd+cGHM3fn+Z3fOb/zO79ZJz22mzLsYbASdFb57RxYCBZ77OsBZoNJoBwcAZ+DD0FGhWhJ1++HKOY8SXicIw/UAnQFVR6CJvGliDWAE6AnqAZPgeHgeLEEXWXbH/yW59wMH9i0V8E73J4I1nC7M/c9B46CYaA2DEElrt9lbBfwTXpZXz6ccnmwmmLSoI8hRuw0eB7MAqWgBowuhqATbKeBbaCDxzkrDC/UsF0CXgKnQCU46HO/j8GT3P4KzAhb0DLwKAex6THTWrG9D7wOVoOnKeJu8FOee64CD3J7KXg7TEHSXbYbnmrwOEdEXuMYWM+xsgfcCy4HvO8uIOH1IpgPvghLkLbyHOdcYED4hVFuIxjKl9EUk/N7MUikwJYwBeWyK6A1uJNdpqqA+58B94CvwWPgALi12ILuYvsux06h9g8YAZaDfuAwx6KVeSiIzeFbXGw5QE3lGJTQ/iODTm0xPLQmBDHaXuB8paeEVDEEhW2fgLHclug3z4agTMSi1oFHuP0eeL9QQTdi4MFvGBzOgrlB5yqvB5aLDDAiUJR2mKnUDxxPu4xMJZCgYYwwbenq8zEYU3VMiJdwAv/eJ8f8X9iewlxO7EXwUcAbduW5d4TYReuMZ+3Bpc0GjvU0nfCZhH2HK1ZZLrzFE0YzRwtikmR+F5PoKCvo/qL6DfAms+UHmpBgylpoK7dlSbA/ouiYYKaxCHwpHspw8A9nLtUFOOAk+DPHhfrxeHH1MzHwkGQVg8VDuznYvnUdcJIR74rPBdqxbQ9GRRji9TgST2WSLIzM4/pEHzCGnmqbQ9DfbCeQOFhdkt1toWtHBVeuQeahvWATu6mK0EvTxQnJZizw3LaVS4mobZBMHTb6fXlMultpc9dDbutIEhGKkaDQRgeFQm06iYNdtiHoGDgUAzFDpPvbELSS2UbUthmMtBEU2sWku7W0FRR0/vYKeJzzUYaZw03+rYIpUlI11u/0vCVrHRslYce2ICnQD/QJp5IeDfY5v41NNyUtXmMi8bJThkekSCnfly75HCspWFnAezdwVWtVkPZQJ5Wtppp/T3COkm52kanUXu4fSO/9rho/gI1X//0ME8Sk3lCtn8OGIF3QXwvuD3D8ZJWta9cYSW4pt/ULkeJ/vq8YsgyXMnRv88XaEKQj5XyOE8dnoedQ/A6V/Xoxl13viHHMNeNaO/PcV7ruX0aFylqX02NjZ4CHMK06R/etCFjLUMr11SOOlVMVsAxwwfVCrXnIpukXfLvKfhAoyZGMVtoO2yWuoGBttod9SoJYmdn1ChGklws3LQqSmvZtjGDJHFUkhwKkXrfUVpQ7yraKaY8N+1k17yNaUmcihQiS2V++gKc4OdbyrRVaW0i7POOwF9SrbF271NifZjcdwTA+p9Cg8ATdPhOMizigSPV3kZ+g60240LPgZaY+jrJfPU3zZX2gsgXNFYyADgOTZBp/6ODkJag786+mzFP1XLmGZb+yvYX3Op4v9GpLcbD35e+ovw+ZeZvOLupUwM8pypis5J8g5B8qzsVE0HpOtim2HY1MIaegerYzGMXiYvJiX2NEm60ay9B5BbVmu4MDLRETQbogP4S/WwQVtI99tNIvV4qByeR71m/nvwIMAPxpFzO3t+JKAAAAAElFTkSuQmCC" loading="lazy" alt="" style="max-width: 52px;">
+                <h4>Payment<br><span>Payment Process</span></h4>
+              </li>
+              <li>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAsCAYAAAAq/ZsdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjlGN0ZFRjAwQTZEMDExRUQ4Rjk1OUIwN0IwMTgzRjU4IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjlGN0ZFRjAxQTZEMDExRUQ4Rjk1OUIwN0IwMTgzRjU4Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OUY3RkVFRkVBNkQwMTFFRDhGOTU5QjA3QjAxODNGNTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OUY3RkVFRkZBNkQwMTFFRDhGOTU5QjA3QjAxODNGNTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7s2rb5AAAHxElEQVR42sSaC5BP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" loading="lazy" alt="" style="max-width: 52px;">
+                <h4>Safety<br><span>24/7 Under Control</span></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="video section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Video View</h6>
+            <h2>Get Closer View & Different Feeling</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="video-frame">
+            <img src="./assets/video-frame-Ow8Ada6q.jpg" loading="lazy" alt="">
+            <a href="https://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="34" data-speed="1000"></h2>
+                   <p class="count-text ">Buildings<br>Finished Now</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="12" data-speed="1000"></h2>
+                  <p class="count-text ">Years<br>Experience</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="24" data-speed="1000"></h2>
+                  <p class="count-text ">Awwards<br>Won 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section best-deal">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="section-heading">
+            <h6>| Best Deal</h6>
+            <h2>Find Your Best Deal Right Now!</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="tabs-content">
+            <div class="row">
+              <div class="nav-wrapper ">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Appartment</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Villa House</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Penthouse</button>
+                  </li>
+                </ul>
+              </div>              
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Flat Space <span>185 m2</span></li>
+                          <li>Floor number <span>26th</span></li>
+                          <li>Number of rooms <span>4</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="./assets/deal-01-DtPsYwmF.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Property</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. 
+                      <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="villa" role="tabpanel" aria-labelledby="villa-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Flat Space <span>250 m2</span></li>
+                          <li>Floor number <span>26th</span></li>
+                          <li>Number of rooms <span>5</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="./assets/deal-02-BN6T5tvA.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Detail Info About Villa</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Flat Space <span>320 m2</span></li>
+                          <li>Floor number <span>34th</span></li>
+                          <li>Number of rooms <span>6</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="./assets/deal-03-BaBWBvaB.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Penthouse</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="properties section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Properties</h6>
+            <h2>We Provide The Best Property You Like</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="./assets/property-01-B1oBM-Gv.jpg" loading="lazy" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$2.264.000</h6>
+            <h4><a href="property-details.html">18 New Street Miami, OR 97219</a></h4>
+            <ul>
+              <li>Bedrooms: <span>8</span></li>
+              <li>Bathrooms: <span>8</span></li>
+              <li>Area: <span>545m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>6 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="./assets/property-02-BIhLTQzR.jpg" loading="lazy" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$1.180.000</h6>
+            <h4><a href="property-details.html">54 Mid Street Florida, OR 27001</a></h4>
+            <ul>
+              <li>Bedrooms: <span>6</span></li>
+              <li>Bathrooms: <span>5</span></li>
+              <li>Area: <span>450m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>8 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="./assets/property-03-DnBC7Dfs.jpg" loading="lazy" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$1.460.000</h6>
+            <h4><a href="property-details.html">26 Old Street Miami, OR 38540</a></h4>
+            <ul>
+              <li>Bedrooms: <span>5</span></li>
+              <li>Bathrooms: <span>4</span></li>
+              <li>Area: <span>225m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>10 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="./assets/property-04-CJ8IwNij.jpg" loading="lazy" alt=""></a>
+            <span class="category">Apartment</span>
+            <h6>$584.500</h6>
+            <h4><a href="property-details.html">12 New Street Miami, OR 12650</a></h4>
+            <ul>
+              <li>Bedrooms: <span>4</span></li>
+              <li>Bathrooms: <span>3</span></li>
+              <li>Area: <span>125m2</span></li>
+              <li>Floor: <span>25th</span></li>
+              <li>Parking: <span>2 cars</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="./assets/property-05-Ch4R1YWd.jpg" loading="lazy" alt=""></a>
+            <span class="category">Penthouse</span>
+            <h6>$925.600</h6>
+            <h4><a href="property-details.html">34 Beach Street Miami, OR 42680</a></h4>
+            <ul>
+              <li>Bedrooms: <span>4</span></li>
+              <li>Bathrooms: <span>4</span></li>
+              <li>Area: <span>180m2</span></li>
+              <li>Floor: <span>38th</span></li>
+              <li>Parking: <span>2 cars</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.html"><img src="./assets/property-06-x7qkANY3.jpg" loading="lazy" alt=""></a>
+            <span class="category">Modern Condo</span>
+            <h6>$450.000</h6>
+            <h4><a href="property-details.html">22 New Street Portland, OR 16540</a></h4>
+            <ul>
+              <li>Bedrooms: <span>3</span></li>
+              <li>Bathrooms: <span>2</span></li>
+              <li>Area: <span>165m2</span></li>
+              <li>Floor: <span>26th</span></li>
+              <li>Parking: <span>3 cars</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="property-details.html">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Contact Us</h6>
+            <h2>Get In Touch With Our Agents</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="item phone">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFFQjIyNDUzQTcwMTExRUQ4RTQyOEQyOTU1NUFFNzVBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFFQjIyNDU0QTcwMTExRUQ4RTQyOEQyOTU1NUFFNzVBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUVCMjI0NTFBNzAxMTFFRDhFNDI4RDI5NTU1QUU3NUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUVCMjI0NTJBNzAxMTFFRDhFNDI4RDI5NTU1QUU3NUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Zp4ZdAAAGQ0lEQVR42sxae5BX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" loading="lazy" alt="" style="max-width: 52px;">
+                <h6>010-020-0340<br><span>Phone Number</span></h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="item email">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAkCAYAAADGrhlwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkQ0N0FGRkRBQTcwMTExRURCMUMyOTgwNzM5NDU3QzAzIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkQ0N0FGRkRCQTcwMTExRURCMUMyOTgwNzM5NDU3QzAzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDQ3QUZGRDhBNzAxMTFFREIxQzI5ODA3Mzk0NTdDMDMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDQ3QUZGRDlBNzAxMTFFREIxQzI5ODA3Mzk0NTdDMDMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6sX5a9AAADwklEQVR42tyZaWxMURTHZysligqptWr7hiJISG2tJbFFSaO2lortIyGWkibSICLhC9GipSVIEKUSGjSalAyaaBCxxVbEV43G1tb/yHlycvLaefOmM/PqJL/23TvvtvN/59xz7r3P3ZQxzMWWBxaDvsDjah/WDL6AMrANNLpZ0E2Q5mrfVgvG+vBjg4mY98ALujr0y38DDWCw6EsG+SRos8kAEjQd/ABxDhTTBK4oQWQ5JGiAyaAUcBYsBPUO9NAJMM+kP44m/09u1IES8WE6qHKgmIvkCdEuBc/4+reH3UfWA2SDdeLmSeCWg8Sc46gxLB9kiWnRLNNzZxZVCHaL/lTOgu4oi7nAZcWwArCLr3sanbredBc1aa/oT4ty+JGYRaJ9FKzn627gV0uCGsX1DuUpShQVURBzRokp4FJjWJO8OdCKII/j1LAZ4EaE58xS0S4UnjE1K0scitN9oj0zQuF3Sc2ZQpWwbAsi2w72qOwXTk+d5rJh2HErYoIRRJarRJGnrodBDNWVZUrMGquDg11V56rwmwVut3E2W25XjB1BRvjtF+1pbeSpEpXNioIVY1cQ2VYTT10LQcxJsEK0i8FqO38olI0ceWoj+M7t2TYTxVlecv1di3GZyLH7pULdmR7hLYZMFBVBJoBMVdiPhfKFQhE0ELzlpYdLFV8r4VesEgBZR/AUjIm0IBLzEPThdgNnKJcIv/IAdWalKqKf+LoL8IPRkRKUBB7JFS5sLsgAB0XfnBbCT9eZU5zdUkWfj0Ulh1tQInggVuXGRrCSrzeBAyr8aKscz0++SIVZqfDUczCVT3LIYvh/jQqXoEQOM+2Zy+q+LUoUbZXfgQ9glQq7LDX2DpigRPmDEWVV0CAW00v0zW9l8pOoQ3Kvr7xaouqOND+LMqwD941sK0H9+Q9KMTRfrgYYRzVqLXgi+l7xKVN2gLF+Nacsi6KDxq9iT57E4WFYP1ADElQIlQc594bww3sZ5LiJoFq0qeaNA4+V9z/y73qPhTmToMKs3EZmfG1DDNldFiXr1H0wXDqltZDzKc/0Fp8tsRBm4bB7KvxiWdQI46RHivKYPMlYk2y2gLfD0TIqC1NEuxOLovlNB6FeM0GfuTr7lWeozpQ54Eyuig9qpKfowY9nR/wTFCNuqFGZJNOkzkTTqlX4JfA8M+a51yOOruJFLL4BQ8F5l/OskqeDkem8oqS4fbzeSleDaKE4mddcTnv5RUmA3o7UicRgWC3VIXrj9cL1f1iKj+sD1ZfDannSnozeGe2kOfZHgAEAGPzD+3P3IEYAAAAASUVORK5CYII=" loading="lazy" alt="" style="max-width: 52px;">
+                <h6>info@villa.co<br><span>Business Email</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <form id="contact-form" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="name">Full Name</label>
+                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="email">Email Address</label>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="subject">Subject</label>
+                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-8">
+        <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. 
+        
+        Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a href="https://themewagon.com">ThemeWagon</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
